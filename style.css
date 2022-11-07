@@ -1,0 +1,43 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-items{
+    max-width: 750px;
+    margin: 0 auto 20px;
+    box-sizing: border-box;
+    padding: 26px 25px;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    border-radius: 8px;
+}
+.about-text{
+    margin-top: 3px;
+    max-width: 410px;
+    font-size: 18px;
+    line-height: 26px;
+    display: none;
+}
+.about-pretitle{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.about-rotate-icon{
+    transform: rotate(90deg);
+    transition: 300ms;
+}
+.change-color{
+    color: white;
+    background-color: #3141C5;
+    border: 2px solid #3141C5;
+    
+}
+.about-cities{
+    width: 232px;
+}
